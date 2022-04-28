@@ -3,280 +3,168 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>FSHDQ</title>
-	<link rel="stylesheet" href="css/style.css" />
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
-		rel="stylesheet">
+	<title>FSHDQ - Dicoding</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/style.css" />
+	<link rel="stylesheet" href="assets/text-decoration.css" />
+	<link rel="stylesheet" href="assets/layout.css" />
 </head>
 
 <body>
+	<!-- Header Start -->
 	<header class="header">
-		<nav class="header__content">
-			<div class="header__logo-container">
-				<span class="header__logo-sub">FSHDQ</span>
-			</div>
-			<div class="header__main">
-				<ul class="header__links">
-					<li class="header__link-wrapper">
-						<a href="./index.html" class="header__link"> Home </a>
-					</li>
-					<li class="header__link-wrapper">
-						<a href="./index.html#about" class="header__link">About </a>
-					</li>
-					<li class="header__link-wrapper">
-						<a href="./index.html#projects" class="header__link">
-							Projects
-						</a>
-					</li>
-					<li class="header__link-wrapper">
-						<a href="./index.html#contact" class="header__link"> Contact </a>
-					</li>
-				</ul>
-				<div class="header__main-ham-menu-cont">
-					<img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-					<img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
-						class="header__main-ham-menu-close d-none" />
+		<nav>
+			<div class="container-flex">
+				<div class="brand">
+					<a href="">FSHDQ</a>
 				</div>
-			</div>
-		</nav>
-		<nav class="header__sm-menu">
-			<div class="header__sm-menu-content">
-				<ul class="header__sm-menu-links">
-					<li class="header__sm-menu-link">
-						<a href="./index.html"> Home </a>
-					</li>
-
-					<li class="header__sm-menu-link">
-						<a href="./index.html#about"> About </a>
-					</li>
-
-					<li class="header__sm-menu-link">
-						<a href="./index.html#projects"> Projects </a>
-					</li>
-
-					<li class="header__sm-menu-link">
-						<a href="./index.html#contact"> Contact </a>
-					</li>
+				<div class="burger">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<div class="bg-sidebar"></div>
+				<ul class="sidebar">
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#contact-us">Contact Us</a></li>
 				</ul>
 			</div>
 		</nav>
 	</header>
+	<!-- Header End -->
+
 	<main>
-		<section class="home-hero">
-			<div class="home-hero__content">
-				<h1 class="heading-primary">I'm Farras Shiddiq</h1>
-				<div class="home-hero__info">
-					<p class="text-black">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-						tempora explicabo quae quod deserunt eius sapiente solutions for
-						complex problems
-					</p>
-				</div>
-				<div class="home-hero__cta">
-					<a href="./#projects" class="btn btn--bg">Projects</a>
-				</div>
-			</div>
-		</section>
-		<section id="about" class="about sec-pad">
-			<div class="main-container">
-				<h2 class="heading heading-sec heading-sec__mb-med">
-					<span class="heading-sec__main">About Me</span>
-					<span class="heading-sec__sub">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-						tempora explicabo quae quod deserunt eius sapiente
-					</span>
-				</h2>
-				<div class="about__content">
-					<div class="about__content-main">
-						<h3 class="about__content-title">Get to know me!</h3>
-						<div class="about__content-details">
-							<p class="about__content-details-para">
-								Hey! It's
-								<strong>John Doe</strong>
-								and I'm a <strong> Frontend Web Developer </strong> located in
-								Los Angeles. I've done
-								<strong> remote </strong>
-								projects for agencies, consulted for startups, and collaborated
-								with talented people to create
-								<strong>digital products </strong>
-								for both business and consumer use.
-							</p>
-							<p class="about__content-details-para">
-								I'm a bit of a digital product junky. Over the years, I've used
-								hundreds of web and mobile apps in different industries and
-								verticals. Feel free to
-								<strong>contact</strong> me here.
-							</p>
-						</div>
-						<a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+		<!-- Hero Start -->
+		<section id="hero" class="banner-area bg-gray-light">
+			<div class="container">
+				<div class="hero-section">
+					<div class="hero-heading">
+						<h1 class="text-3xl font-bold">Hi,I'm Muhammad <span class="text-primary">Farras </span>Shiddiq.
+						</h1>
+						<p class="text-md font-base">UI/UX Designer & Frontend Developer</p>
 					</div>
-					<div class="about__content-skills">
-						<h3 class="about__content-title">My Skills</h3>
-						<div class="skills">
-							<div class="skills__skill">HTML</div>
-							<div class="skills__skill">CSS</div>
-							<div class="skills__skill">JavaScript</div>
-							<div class="skills__skill">React</div>
-							<div class="skills__skill">SASS</div>
-							<div class="skills__skill">GIT</div>
-							<div class="skills__skill">Shopify</div>
-							<div class="skills__skill">Wordpress</div>
-							<div class="skills__skill">Google ADS</div>
-							<div class="skills__skill">Facebook Ads</div>
-							<div class="skills__skill">Android</div>
-							<div class="skills__skill">IOS</div>
-						</div>
+					<div class="w-full">
+						<img class="hero-img" src="./assets/img/hero.svg" />
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="projects" class="projects sec-pad">
-			<div class="main-container">
-				<h2 class="heading heading-sec heading-sec__mb-bg">
-					<span class="heading-sec__main">Projects</span>
-					<span class="heading-sec__sub">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-						tempora explicabo quae quod deserunt eius sapiente
-					</span>
-				</h2>
+		<!-- Hero End -->
 
-				<div class="projects__content">
-					<div class="projects__row">
-						<div class="projects__row-img-cont">
-							<img src="./assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot"
-								class="projects__row-img" loading="lazy" />
+		<!-- About Section -->
+		<section id="about" class="bg-white">
+			<div class="container">
+				<div class="flex-col about-title">
+					<h1 class="text-3xl font-bold">About Me</h1>
+				</div>
+				<div class="flex-row">
+					<article class="about-wrapper">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis exercitationem doloribus rerum id
+						molestiae, sapiente ea delectus nesciunt repellendus ut nam quia neque, ratione sunt dignissimos
+						eum
+						a quae? Labore?
+					</article>
+					<aside class="card-team">
+						<div class="card-image">
+							<img src="assets/img/farras_photo.jpg" alt="profile-img">
 						</div>
-						<div class="projects__row-content">
-							<h3 class="projects__row-content-title">Project 1</h3>
-							<p class="projects__row-content-desc">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-								facilis tempora, explicabo quae quod deserunt eius sapiente
-								praesentium.
-							</p>
-							<a href="./project-1.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case
-								Study</a>
+						<div class="card-body">
+							<h3 class="text-lg font-bold">Muhammad Farras Shiddiq</h3>
+							<h4 class="text-lg font-bold">UPN "Veteran" Yogyakarta</h4>
+							<div class="card-social-media">
+								<a href="https://www.instagram.com/farrasshiddiq/" class="card-social-media-icon">
+									<img src="assets/img/instagram.png" alt="instagram">
+								</a>
+								<button class="card-social-media-icon">
+									<img src="assets/img/dribble.png" alt="dribbble">
+								</button>
+								<button class="card-social-media-icon">
+									<img src="assets/img/twitter.png" alt="twitter">
+								</button>
+								<button class="card-social-media-icon">
+									<img src="assets/img/youtube.png" alt="youtube">
+								</button>
+							</div>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</section>
+		<!-- End -->
+
+		<!-- SERVICES SECTION -->
+		<section id="services" class="service-section">
+			<div class="container">
+				<div class="flex-col service-title">
+					<h1 class="text-3xl font-bold">Services</h1>
+				</div>
+				<div class="card-container">
+					<div class="service-card">
+						<div class="service-content">
+							<div class="service-image">
+								<img src="assets/img/html.png" />
+							</div>
+							<h3 class="text-lg font-bold">UI/UX Design</h3>
+							<p class="text-base font-base">The most basic building block of the Web. It defines the
+								meaning and structure of
+								web content.</p>
+							<button type="submit" class="service-button">ORDER</button>
 						</div>
 					</div>
-					<div class="projects__row">
-						<div class="projects__row-img-cont">
-							<img src="./assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot"
-								class="projects__row-img" loading="lazy" />
-						</div>
-						<div class="projects__row-content">
-							<h3 class="projects__row-content-title">Project 2</h3>
-							<p class="projects__row-content-desc">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-								facilis tempora, explicabo quae quod deserunt eius sapiente
-								praesentium.
-							</p>
-							<a href="./project-2.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case
-								Study</a>
-						</div>
-					</div>
-					<div class="projects__row">
-						<div class="projects__row-img-cont">
-							<img src="./assets/jpeg/project-mockup-example.jpeg" alt="Software Screenshot"
-								class="projects__row-img" loading="lazy" />
-						</div>
-						<div class="projects__row-content">
-							<h3 class="projects__row-content-title">Project 3</h3>
-							<p class="projects__row-content-desc">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-								facilis tempora, explicabo quae quod deserunt eius sapiente
-								praesentium.
-							</p>
-							<a href="./project-3.html" class="btn btn--med btn--theme dynamicBgClr" target="_blank">Case
-								Study</a>
+					<div class="service-card">
+						<div class="service-content">
+							<div class="service-image">
+								<img src="assets/img/css.png" />
+							</div>
+							<h3 class="text-lg font-bold">Web Development</h3>
+							<p class="text-base font-base">A stylesheet language used to describe the presentation of a
+								document written in
+								HTML or XML.</p>
+							<button type="submit" class="service-button">ORDER</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="contact" class="contact sec-pad dynamicBg">
-			<div class="main-container">
-				<h2 class="heading heading-sec heading-sec__mb-med">
-					<span class="heading-sec__main heading-sec__main--lt">Contact</span>
-					<span class="heading-sec__sub heading-sec__sub--lt">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-						tempora explicabo quae quod deserunt eius sapiente
-					</span>
-				</h2>
-				<div class="contact__form-container">
-					<form action="#" class="contact__form">
-						<div class="contact__form-field">
-							<label class="contact__form-label" for="name">Name</label>
-							<input required placeholder="Enter Your Name" type="text" class="contact__form-input"
-								name="name" id="name" />
-						</div>
-						<div class="contact__form-field">
-							<label class="contact__form-label" for="email">Email</label>
-							<input required placeholder="Enter Your Email" type="text" class="contact__form-input"
-								name="email" id="email" />
-						</div>
-						<div class="contact__form-field">
-							<label class="contact__form-label" for="message">Message</label>
-							<textarea required cols="30" rows="10" class="contact__form-input"
-								placeholder="Enter Your Message" name="message" id="message"></textarea>
-						</div>
-						<button type="submit" class="btn btn--theme contact__btn">
-							Submit
-						</button>
-					</form>
+		<!-- END -->
+
+		<!-- CTA SECTION -->
+		<section id="contact-us" class="bg-white">
+			<div class="container">
+				<div class="cta-section">
+					<div class="cta-content">
+						<h1 class="text-3xl font-bold">Interested Working With us? <span style="font-style: italic;">
+								Let's Connect! </span> </h1>
+						<a href="#" class="button button-light">CONTACT US</a>
+					</div>
 				</div>
 			</div>
 		</section>
+		<!-- END -->
 	</main>
-
-	<footer class="main-footer">
-		<div class="main-container">
-			<div class="main-footer__upper">
-				<div class="main-footer__row main-footer__row-1">
-					<h2 class="heading heading-sm main-footer__heading-sm">
-						<span>Social</span>
-					</h2>
-					<div class="main-footer__social-cont">
-						<a target="_blank" rel="noreferrer" href="#">
-							<img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
-						</a>
-						<a target="_blank" rel="noreferrer" href="#">
-							<img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
-						</a>
-						<a target="_blank" rel="noreferrer" href="#">
-							<img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
-						</a>
-						<a target="_blank" rel="noreferrer" href="#">
-							<img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
-						</a>
-						<a target="_blank" rel="noreferrer" href="#">
-							<img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png"
-								alt="icon" />
-						</a>
-					</div>
-				</div>
-				<div class="main-footer__row main-footer__row-2">
-					<h4 class="heading heading-sm text-lt">John Doe</h4>
-					<p class="main-footer__short-desc">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-						tempora explicabo quae quod deserunt
-					</p>
-				</div>
+	<footer class="bg-gray-light">
+		<div class="container">
+			<div class="footer-title">
+				<h1>FSHDQ</h1>
 			</div>
-
-			<!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-			<div class="main-footer__lower">
-				&copy; Copyright 2021. Made by
-				<a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+			<div class="card-social-media">
+				<button class="card-social-media-icon">
+					<img src="./src/assets/img/instagram.png" alt="instagram">
+				</button>
+				<button class="card-social-media-icon">
+					<img src="./src/assets/img/dribble.png" alt="dribbble">
+				</button>
+				<button class="card-social-media-icon">
+					<img src="./src/assets/img/twitter.png" alt="twitter">
+				</button>
+				<button class="card-social-media-icon">
+					<img src="./src/assets/img/youtube.png" alt="youtube">
+				</button>
 			</div>
 		</div>
 	</footer>
-
-	<script src="./index.js"></script>
+	<script src="src/assets/js/app.js"></script>
 </body>
 
 </html>
